@@ -8,7 +8,7 @@
     height: 100%;
 }
 .header .label{
-    height: 150px;
+    height: 100px;
     width: 1024px;
     overflow-y: hidden;
     margin: auto; 
@@ -54,7 +54,7 @@
     display: flex;
     opacity: 0;
     visibility: hidden;
-    top: 195px;
+    top: 145px;
     left: 169px;
     width: 1024px;
     margin-top: 15px;
@@ -93,7 +93,7 @@
 }
 .header .menu > ul > li:last-child {
     position: absolute;
-    top: 148px;
+    top: 98px;
     right: 39px;
     display: flex;
 } 
@@ -140,4 +140,51 @@
     top: 0;
     left: 0;
     opacity: 0.4;
+}
+
+.contain .autoVideo .text {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+
+.contain .autoVideo .text strong {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 120px;
+    font-size: 52px;
+    left: 22px;
+}
+
+.contain .autoVideo .text p {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 215px;
+    font-size: 17px;
+    left: 74px;
+}
+
+.contain .autoVideo .text a:last-child,
+.contain .autoVideo .text a{
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    top: 299px;
+    left: 168px;
+    border: 1px #f9a95a solid;
+    background: #f9a95a;
+    border-radius: 6px;
+    padding: 5px 38px;
+}
+.contain .autoVideo .text a{
+    left: 523px;
+    background: #cccccc;
+    border: 1px #cccccc solid;
+    color: #284664;
+    padding: 5px 33px;
 }
