@@ -1,0 +1,779 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 0; */
+    /* box-sizing: border-box; */
+    overflow-x: hidden;
+}
+.body1{
+    /* background-color: #F7F7F7;
+    width: 100%;
+    height: 900px;
+    margin-top: 900px; */
+        background-color: #F7F7F7;
+    width: 100%;
+    height: 100%;
+}
+.label{
+    height: 150px;
+    width: 1024px; /*change*/
+    /* background-color: white;
+    padding-left: 200px; */
+    overflow-y: hidden; /* add*/
+    margin: auto; /* add*/
+}
+/*add*/
+.label a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.label a img {
+    width: 150px;
+    height: 100%;
+}
+/*end add*/
+.introduce{
+    height: 65px;
+    color: white;
+    background-color: #284664;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    font-family: 'Roboto', sans-serif;
+    /* padding-left: 250px; */
+}
+.introduce .containIntroduce{
+    width: 1024px;
+    height: 100%;                                                                                                                                                                                                                       
+    display: flex;
+    margin: auto;
+}
+.introduce .containIntroduce h3{
+    padding-left: 30px;
+    float: left;
+    display: block;
+        
+}
+.ielts-exam-library{
+    width: 210px;
+    height: 65px;
+    background-color: #284664;
+    overflow: hidden;
+}
+.ielts-exam-library:hover{
+    cursor: pointer;
+    background-color: #536B83;
+    align-items: center;
+}
+.ielts-exam-library a{
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    display: block;
+}
+.ielts-exam-library i{
+    color: #718597;
+    font-size: 15px;
+}
+.ielts-exam-library1{
+    width: 1520px;
+    height: 60px;
+    background-color: #536B83;
+    margin-top:25px;
+}
+.ielts-exam-library1:hover{
+    transition: 0.5s;
+    height: 60px;
+    background-color: #536B83;
+}
+.ielts-tips{
+    width: 150px;
+    height: 65px;
+    background-color: #284664;
+}
+.ielts-tips a{
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    display: block;
+}
+.ielts-tips i{
+    color: #718597;
+    font-size: 15px;
+}
+.ielts-tips:hover{
+    cursor: pointer;
+    background-color: #536B83;
+    align-items: center;
+}
+.ielts-premium-services a{
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    display: block;
+}
+.ielts-premium-services i{
+    color: #718597;
+    font-size: 15px;
+}
+.ielts-premium-services:hover{
+    cursor: pointer;
+    background-color: #536B83;
+    align-items: center;
+}
+.ielts-premium-services{
+    width: 230px;
+    height: 65px;
+    background-color: #284664;
+}
+.live-lessons a{
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    display: block;
+}
+.live-lessons:hover{
+    cursor: pointer;
+    background-color: #536B83;
+    align-items: center;
+}
+.live-lessons{
+    position: relative;
+    width: 200px;
+    height: 65px;
+    background-color: #284664;
+}
+
+.free-online{
+    
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.free-online video{
+    position: absolute;
+    opacity: 0.4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.free-online h1{
+    position: absolute;
+}
+.free-online h3{
+    position: absolute;
+}
+.noi-dung h1{
+    padding-top: 15%; 
+    padding-left: 25%;
+    text-align: center;
+    font-size: 55px;
+}
+.noi-dung h3{
+    padding-top: 20%;
+    padding-left: 27%;
+    font-size: 18px;
+}
+.take{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.take-1,take-2{
+    position: absolute;
+}
+.take-1{
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F9A95A;
+    margin-left: 20%;
+    margin-top: 25%;
+    line-height: 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.take-1 h3{
+    color: white;
+    padding-left: 80px;
+}
+.take-1:hover{
+    background-color: #BB7F44;
+    transition: 0.5s;
+}
+.take-2{
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #CCCCCC;
+    float: right;
+    margin-right: 20%;
+    margin-top: 25%;
+    color: #284664;
+    line-height: 35px;
+    text-align: center;
+}
+.take-2 h3{
+    padding-left: 75px;
+}
+.take-2:hover{
+    background-color: #284664;
+    transition: 0.5s;
+    color: #CCCCCC;
+}
+.section{
+    /* margin-left: 240px;
+    width:  1450px;
+    height:  900px;
+    font-size:30px;
+    color: #284664;
+    overflow: hidden;
+    margin-top: -100px; */
+    width: 1024px;
+    height: 100%;
+    font-size: 30px;
+    color: #284664;
+    margin: auto;
+}
+.join{
+    float: left;
+    margin-top: 70px;
+    display: block;
+}
+.new1{
+    /* width: 40px;
+    height: 25px;
+    background-color: #FAAA5A;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+    float: left;
+    padding-bottom: 10px;
+    display: block; */
+
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    background-color: #FAAA5A;
+    border: 1px #FAAA5A solid;
+    border-radius: 10px;
+    font-size: 17px;
+    top: 7px;
+    right: 13px;
+    padding: 0px 6px;
+}
+.new{
+    width: 40px;
+    height: 25px;
+    background-color: #FAAA5A;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+    float: left;
+    margin-top: 70px;
+    display: block;
+    font-weight: 100;
+}
+.section h4{
+    font-size: 20px;
+    float: left;
+    margin-top: 20px;
+    
+}
+strong{
+    color: #FAAA5A;
+    padding-top: 30px;
+    display: inline;
+    font-size: 16px;
+}
+.clearleft{
+    clear: left;
+}
+.opinion1{
+    width:400px;
+    height:550px;
+    margin-top: 70px;
+    border-radius: 30px;
+    border: 0.5px solid black;
+    float: left;
+    color: white;
+    margin-right: 20px;
+    display: block;
+    box-shadow: 5px;
+    
+}
+.opinion1 img{
+    width:400px;
+    height:260px;
+    position: relative;
+    background-color: #504F53;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.5;
+}
+.opinion1 h3{
+    position: absolute;
+    z-index: 999;
+    padding-left: 30px;
+    padding-top: 70px;
+    opacity: 2;
+}
+.opinion2{
+    width:400px;
+    height:550px;
+    margin-top: 70px;
+    border-radius: 30px;
+    border: 0.5px solid black;
+    float: left;
+    color: white;
+    margin-right: 20px;
+    display: block;
+    box-shadow: 5px;
+    margin-bottom: 30px;
+}
+.opinion2 img{
+    width:400px;
+    height:260px;
+    position: relative;
+    opacity: 0.5;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.opinion2 h3{
+    position: absolute;
+    z-index: 999;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.opinion1 h5{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.opinion1 h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+}
+.opinion1 i{
+    padding-right: 10px;
+}
+.join1{
+    background-color: #32B4C8;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 30px;
+    display: block;
+}
+.join1:hover{
+    background-color: #47BBCD;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.join1 a{
+    text-decoration: none;
+    color: white;
+}
+.opinion2 h5{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.opinion2 h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+}
+.opinion2 i{
+    padding-right: 10px;
+}
+.clearboth{
+    clear: both;
+}
+.black1{
+    width: 400px;
+    height: 260px;
+    background-color: black;
+    position: absolute;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.explore-more{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+    position: relative;
+    margin-left: 35%;
+    opacity: 0.25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+.explore-more1{
+    position: absolute;
+}
+.explore-more:hover{
+    background-color: #284664;
+    transition: 0.5s;
+    opacity: 1;
+    
+}
+.total{
+    margin-left: 240px;
+    width:  1300px;
+    height:  900px;
+    font-size:25px;
+    color: #284664;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    overflow: hidden;
+}
+.clearboth{
+    clear: both;
+}
+.Why-use-IELTS-Online-Tests{
+    width: 100%;
+    height: 100px;
+}
+.Take-recent-actual-IELTS-Tests{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 50px;
+}
+.Community-driven{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 50px;
+}
+.total h5{
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+.Comprehensive-analytics-tool{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 50px;
+}
+.View-IELTS-Score-and-Answer-Explanations{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 50px;
+}
+.FREE-to-use{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 50px;
+}
+.Increase-your-IELTS-band-score{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+.Latest-IELTS-test-releases{
+    width: 100%;
+    height: 550px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: #284664;
+}
+.Latest-IELTS-test-releases h3{
+    padding-top: 70px;
+    padding-left: 240px;
+    padding-bottom: 30px;
+}
+.image img{
+    border: 2px;
+    border: solid;
+    border-color: #D4DAE0;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    justify-content: center;
+}
+.image a{
+    text-decoration: none;
+    text-align:center;
+}
+.image h4{
+    margin-top: 20px;
+    
+}
+.IELTS-TIP-OF-THE-DAY{
+    width: 100%;
+    height: 350px;
+    background-color: #284664;
+    color: white;
+}
+.IELTS-TIP-OF-THE-DAY h2{
+    padding-top: 30px;
+}
+.form{
+    background-color: white;
+    width: 900px;
+    height: 170px;
+    left: 50%; 
+    top: 50%;
+    transform: translateX(35%) translateY(50%);
+    border-radius: 5px;
+}
+.Recent-Exam-Question-asked-in-IELTS-Speaking-Task-2-3-in-May-2017 img{
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+.Recent-Exam-Question-asked-in-IELTS-Speaking-Task-2-3-in-May-2017 a{
+    text-decoration: none;
+    text-align: none;
+    font-size: 22px;
+}
+.form h5{
+    color: black;
+}
+.tag i{
+    color: #0000004d;
+    font-size: 20px;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+.tag abbr{
+    font-size: 15px;
+    color:#0000004d;
+}
+.tag abbr:hover{
+    color: #284664;
+}
+.form h3{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.form img{
+    display: block;
+}
+.number-1{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    margin-left: 240px;
+}
+.Number-1-for-IELTS-Preparation{
+    padding-top: 30px;
+    color: #284664;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.Countries{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 400px;
+}
+.Test-akers{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 400px;
+}
+.Completed-Tests{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 400px;
+}
+.Academic-Tests{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 400px;
+}
+.General-Training-Tests{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 400px;
+}
+.Total-Questions{
+    width: 350px;
+    height: 170px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    padding-right: 400px;
+}
+.total2 h2{
+    font-size: 30px;
+    margin-left:80px;
+    font-weight: 100;
+}
+.total2 h4{
+    color: #284664;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.number-1 img{
+    display: inline;
+    float: left;
+}
+.contact-us h3{
+    color: #284664;
+    font-weight: bold;
+}
+.tell-us-more{
+    border: 1px solid;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.tell-us-more1{
+    border: 1px solid;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.send{
+    width: 400px;
+    height: 60px;
+    background-color: #284664;
+    color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.send:hover{
+    background-color: #3E5974;
+}
+.end{
+    width: 100%;
+    background-color: #284664;
+    color: white;
+    margin-top: 30px;
+}
+.part1{
+    padding: 30px;
+    padding-left: 240px;
+    width: 63%;
+    height: 400px;
+    background-color: #284664;
+    float: left;
+}
+.Us{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.part1 p{
+    font-size: 16px;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+.Follow-us{
+    padding-bottom: 60px
+}
+.part1 h5{
+    opacity: 0.7;
+}
+.Follow-us i{
+    padding-left: 10px;
+}
+.Follow-us i{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    display:inline-block;
+    text-align: center;
+    padding-right: 20px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 25px;
+}
+.part2{
+    width: 37%;
+    height: 400px;
+    background-color: #284664;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 40px;
+    line-height: 20px; 
+}
+.part2 a{
+    color: #7E90A2;
+    text-decoration: none;
+    margin-bottom:20px;
+    display: inline-block;
+}
+.part2 a:hover{
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.part2 select{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #284664;
+    display: inline-block;
+}
